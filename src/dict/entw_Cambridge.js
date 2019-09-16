@@ -36,7 +36,7 @@ class entw_Cambridge {
                 return node.innerText.trim();
         }
 
-        let base = 'https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=';
+        let base = 'https://dictionary.cambridge.org/dictionary/english-chinese-traditional/';
         let url = base + encodeURIComponent(word);
         let doc = '';
         try {
