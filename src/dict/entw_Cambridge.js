@@ -47,7 +47,7 @@ class entw_Cambridge {
             return [];
         }
 
-        let entries = doc.querySelectorAll('.cdo-dblclick-area .entry-body__el') || [];
+        let entries = doc.querySelectorAll('.entry-body .entry-body__el') || [];
         for (const entry of entries) {
             let definitions = [];
             let audios = [];
